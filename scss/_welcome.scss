@@ -1,0 +1,13 @@
+
+/*------------------------------------------------
+    Welcome Page
+-------------------------------------------------*/
+
+.author-image-large {
+    position: absolute;
+    right: 0;
+    top: 0;
+    img {
+        @include calc(height, "100vh - 4px");
+    }
+}
